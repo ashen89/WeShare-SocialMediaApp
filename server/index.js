@@ -13,7 +13,6 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }));
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors());
 
-// 'mongodb+srv://weshare:weshare123@cluster0.6gum3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const CONNECTION_URL = "mongodb://localhost:27017/weshare";
 const PORT = process.env.PORT || 5000;
 
